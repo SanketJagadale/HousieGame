@@ -1,0 +1,100 @@
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color:none;
+  }
+  
+  .flex-container > div.div1 {
+    background-color: mediumspringgreen;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    line-height: 135px;
+    font-size: 30px;
+  }
+  .flex-container > div.div2 {
+    background-color:mediumspringgreen;
+    color: black;
+    margin: 10px;
+    padding: 30px;
+    line-height: -80px;
+    font-size: 30px;
+  }
+  
+  #number{
+      height:170px;
+      width:170px;
+      background-color:lightseagreen;
+      margin-left:82px;
+      margin-right: 114px;
+      margin-top:20px;
+      margin-bottom:40px;
+      border-radius:150px;
+  }
+
+  span{
+      
+      font-size:120px;
+  }
+
+
+button{
+    height: 30px;
+    width:30px;
+    border-radius:80px;
+    margin: 4px;
+    
+}
+
+  #flexx2{
+      margin-bottom: 40px;
+      padding-left: 340px;
+      font-weight: bold;
+  }
+
+  #start{
+      margin-right:30px;
+      background-color: springgreen;
+      width:170px;
+      height:60px;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 27px;
+  }
+  #start:hover{
+      background-color: lightseagreen;
+  }
+
+ #reset{
+    margin-right:30px;
+    background-color: red;
+    width:170px;
+    height:60px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 27px;
+}
+#reset:hover{
+    background-color:lightsalmon;
+}
+
+
+/* #buttons{
+    border-radius: 100px;
+    height: 0px;
+    width: 0px;
+    margin:0px;
+    border: none;
+    font-size:10px;
+    color: white;
+} */
+
+/* #grids{
+    width:300px;
+    height:300px;
+} */
+
+/* table,tr,td {
+    border-collapse: collapse;
+    border: solid 1px #999;
+} */
